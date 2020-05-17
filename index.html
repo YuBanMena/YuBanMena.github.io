@@ -1,113 +1,124 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.0.1">
-    <link href="fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet"> <!--load all styles -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+  <!--load all styles -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
+  <script src="javascript.js"></script>
+  <title>Grupo Cultural Zapoteco</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.css" rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
-    <script src="javascript.js"></script>
-
-    <title>Grupo Cultural Zapoteco</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
-
-    <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-  <header class="blog-header py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <div class="col-2 pt-1">
-        <a class="text-muted" href="#"></a>
+    img {
+      object-fit: cover;
+      width: 230px;
+      height: 230px;
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="blog.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-2 pt-1">
+          <a class="text-muted" href="#"></a>
+        </div>
+        <div class="col-6 text-center">
+          <a class="blog-header-logo text-dark" href="index.html">Grupo Cultural Zapoteco</a>
+        </div>
+        <div class="col-2 d-flex justify-content-end align-items-center">
+        </div>
       </div>
-      <div class="col-6 text-center">
-        <a class="blog-header-logo text-dark" href="index.html">Grupo Cultural Zapoteco</a>
-      </div>
-      <div class="col-2 d-flex justify-content-end align-items-center">
-      </div>
-    </div>
-  </header>
-  </div>
-
-  
+    </header>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html"> <i class="fab fa-houzz"></i>
-
         Inicio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mx-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="paginas/quienesomos.html"><i style="color:darkcyan" class="fas fa-info"></i>  Quienes somos<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="paginas/quienesomos.html"><i style="color:darkcyan" class="fas fa-info"></i>
+              Quienes
+              somos<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="paginas/35aniversario.html"><i style="color:crimson" class="fas fa-birthday-cake"></i>  35 Aniversario</a>
+            <a class="nav-link" href="paginas/35aniversario.html"><i style="color:crimson"
+                class="fas fa-birthday-cake"></i> 35 Aniversario</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="paginas/danzas.html"><i style="color:black" class="fas fa-running"></i>  Danzas</a>
-          </li>
-          <li class="nav-item" >
-          <a class="nav-link" href="paginas/musica.html"><i style="color:limegreen" class="fas fa-music"></i>  Música</a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="paginas/presentaciones.html"><i style="color:tomato" class="far fa-calendar-alt"></i>  Presentaciones</a>
+            <a class="nav-link" href="paginas/danzas.html"><i style="color:black" class="fas fa-running"></i> Danzas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="paginas/integrantes.html"> <i style="color:black" class="fas fa-users"></i>  Integrantes</a>
+            <a class="nav-link" href="paginas/musica.html"><i style="color:limegreen" class="fas fa-music"></i>
+              Música</a>
           </li>
-        <li class="nav-item">
-          <a class="nav-link" href="paginas/convocatorias.html"><i style="color:goldenrod" class="fas fa-bell"></i>  Convocatorias</a>
-        </li>
-      </ul>
-       
+          <li class="nav-item">
+            <a class="nav-link" href="paginas/presentaciones.html"><i style="color:tomato"
+                class="far fa-calendar-alt"></i> Presentaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas/integrantes.html"> <i style="color:black" class="fas fa-users"></i>
+              Integrantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas/convocatorias.html"><i style="color:goldenrod" class="fas fa-bell"></i>
+              Convocatorias</a>
+          </li>
+        </ul>
+
       </div>
     </nav>
-
-
+  </div>
   <div id="jumbotronIndex" class="jumbotron p-4 p-md-5 text-white rounded bg-dark jumbo_text">
     <div class="col-md-6 px-0">
       <h1 class="display-4 font-italic">Conmemoramos nuestro 35 aniversario</h1>
-      <p class="lead my-3"></p>Recordamos a todas nuestras generaciones de jovenes al rescate de la cultura, maestros y colaboradores que a lo largo de 35 años nos apoyado de manera desinteresada. Esto es para ustedes.
-      <p class="lead mb-0"><!-- <a href="#" class="text-white font-weight-bold">Continuar Leyendo...</a> --></p>
+      <p class="lead my-3"></p>Recordamos a todas nuestras generaciones de jovenes al rescate de la cultura, maestros y
+      colaboradores que a lo largo de 35 años nos apoyado de manera desinteresada. Esto es para ustedes.
+      <p class="lead mb-0">
+        <!-- <a href="#" class="text-white font-weight-bold">Continuar Leyendo...</a> -->
+      </p>
     </div>
   </div>
-
   <!--
   <div class="row mb-2">
     <div class="col-md-6">
@@ -140,81 +151,103 @@
     </div>
   </div>
 </div>
-
 -->
-
-
-
-
-
-
 <div class="text-center">
   <div class="row">
-    <a href="angular/288.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/288.jpg" class="img-fluid rounded">
+    <a href="angular/178.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:360px;height:260px !important" src="angular/178.jpg" class="img-fluid rounded">
     </a>
-    <a href="angular/143.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/143.jpg" class="img-fluid rounded">
+    <a href="angular/183.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:360px;height:260px !important" src="angular/183.jpg" class="img-fluid rounded">
     </a>
-    <a href="angular/130.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/130.jpg" class="img-fluid rounded">
+    <a href="angular/190.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:360px;height:260px !important" src="angular/190.jpg" class="img-fluid rounded">
     </a>
-    <a href="angular/246.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/246.jpg" class="img-fluid rounded">
-    </a>
-  </div>
-  <div class="row">
-    <a href="angular/5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/5.jpg" class="img-fluid rounded">
-    </a>
-    <a href="angular/7.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/7.jpg" class="img-fluid rounded">
-    </a>
-    <a href="angular/17.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/17.jpg" class="img-fluid rounded">
-    </a>
-    <a href="angular/28.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/28.jpg" class="img-fluid rounded">
+    <a href="angular/202.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:360px;height:260px !important" src="angular/202.jpg" class="img-fluid rounded">
     </a>
   </div>
   <div class="row">
-    <a href="angular/32.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/32.jpg" class="img-fluid rounded">
+    <a href="angular/208.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:260px;height:260px !important" src="angular/208.jpg" class="img-fluid rounded">
     </a>
-    <a href="angular/40.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/40.jpg" class="img-fluid rounded">
+    <a href="angular/213.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:260px;height:260px !important" src="angular/213.jpg" class="img-fluid rounded">
     </a>
-    <a href="angular/7.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/7.jpg" class="img-fluid rounded">
+    <a href="angular/225.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:260px;height:260px !important" src="angular/225.jpg" class="img-fluid rounded">
     </a>
-    <a href="angular/8.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:260px;height:260px !important" src="angular/8.jpg" class="img-fluid rounded">
-    </a>
-  </div>
-  <div class="row">
-    <a href="angular/256.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/256.jpg" class="img-fluid rounded">
-    </a>
-    <a href="angular/260.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/260.jpg" class="img-fluid rounded">
-    </a>
-    <a href="angular/273.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/273.jpg" class="img-fluid rounded">
-    </a>
-    <a href="angular/289.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
-      <img style="width:360px;height:260px !important" src="angular/289.jpg" class="img-fluid rounded">
+    <a href="angular/171.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+      <img style="width:260px;height:260px !important" src="angular/171.jpg" class="img-fluid rounded">
     </a>
   </div>
+  <div class="text-center">
+    <div class="row">
+      <a href="angular/288.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/288.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/143.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/143.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/junta.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/junta.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/246.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/246.jpg" class="img-fluid rounded">
+      </a>
+    </div>
+    <div class="row">
+      <a href="angular/5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/5.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/7.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/7.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/17.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/17.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/28.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/28.jpg" class="img-fluid rounded">
+      </a>
+    </div>
+    <div class="row">
+      <a href="angular/32.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/32.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/40.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/40.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/7.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/7.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/8.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:260px;height:260px !important" src="angular/8.jpg" class="img-fluid rounded">
+      </a>
+    </div>
+    <div class="row">
+      <a href="angular/256.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/256.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/260.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/260.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/273.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/273.jpg" class="img-fluid rounded">
+      </a>
+      <a href="angular/289.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+        <img style="width:360px;height:260px !important" src="angular/289.jpg" class="img-fluid rounded">
+      </a>
+    </div>
 
-  <hr>
-  <h4> <a style="color: black;" href="paginas/galeria.html">Ver más fotografías</a></h4>
-</div>
-
-<footer class="blog-footer">
-  <p>Derechos reservados. Grupo Cultural Zapoteco 2020. Powered by <a href="https://twitter.com/menayuban">@yubancin</a></p>
-  <p>
-    <a href="#">Ir arriba</a>
-  </p>
-</footer>
+    <hr>
+    <h4> <a style="color: black;" href="paginas/galeria.html">Ver más fotografías</a></h4>
+  </div>
+  <footer class="blog-footer">
+    <p>Derechos reservados. Grupo Cultural Zapoteco 2020. Powered by <a
+        href="https://twitter.com/menayuban">@yubancin</a></p>
+    <p>
+      <a href="#">Ir arriba</a>
+    </p>
+  </footer>
 </body>
 </html>
